@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+body{
+    background-color: rgb(16, 14, 14);
+    color: goldenrod;
+    background-image: url(images/neww-back.png);
+ }
+
+ #head{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/head-back.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+   
+.logo{
+    position: absolute;
+    width: 120px;
+    left: 20px;
+    margin-top: 10px;
+    border-radius: 90px;
+    
+}
+
+.list{
+    padding: 2px 3%;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    margin: 80px 25px;
+    left: 580px;
+    
+}    
+
+nav ul li a{
+    text-decoration: none;
+    color: goldenrod;
+    font-size: 17px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+nav ul li a{
+    box-shadow: 0 0 7px rgb(255, 79, 26), 0 0 25px rgb(246, 0, 0);
+    border-radius: 5px;
+}
+
+nav ul li a:hover{
+    box-shadow: 0 0 7px goldenrod, 0 0 25px goldenrod, 0 0 55px goldenrod,0 0 102px goldenrod,0 0 200px goldenrod;
+}
+
+.head-h1{
+    font-size: 70px;
+    justify-content: space-evenly;
+    font-family: 'Philosopher', sans-serif;
+    position: absolute;
+    right: 200px;
+    top: 200px;
+    text-shadow: 0 0 25px rgb(214, 46, 46), 0 0 30px rgb(207, 20, 20), 0 0 35px rgb(37, 15, 238), 0 0 40px rgb(37, 15, 238);
+}
+
+.head-h4{
+    font-size: 19px;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 300px;
+    right: 520px;
+    text-shadow: 0 0 25px rgb(214, 46, 46), 0 0 30px rgb(207, 20, 20), 0 0 35px rgb(37, 15, 238), 0 0 40px rgb(37, 15, 238);
+}
+
+/*-------------ABOUT US-----------*/
+
+
+.info h1{
+      font-size: 50px;
+      text-shadow: 0 0 25px rgb(198, 156, 48),0 0 25px white, 0 0 50px rgb(243, 13, 13);
+      margin-left: 40px ;
+      
+
+}
+
+.info p{
+    font-size: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left:140px;
+    margin-right: 140px;
+    color: gold;
+   
+}
+
+/*-------------IMAGES-----------*/
+
+
+.pics h1{
+    font-size: 50px;
+    text-shadow: 0 0 25px rgb(186, 145, 40), 0 0 25px rgb(246, 12, 12), 0 0 25px white, 0 0 35px black;
+    position: absolute;
+    right: 55px;
+}
+
+.pic1{
+    width: 510px;
+    position: absolute;
+    left: 100px;
+    border-radius: 10px;
+    
+ 
+}
+
+.pic2{
+    width: 510px;
+    height: 340px;
+    position: absolute;
+    right: 100px;
+    top: 1200px;
+    border-radius: 10px;
+} 
+
+.pic3{
+    width: 510px;
+    height: 370px;
+    position: absolute;
+    top: 1500px;
+    left: 100px;
+    border-radius: 10px;
+;
+}
+
+.pic4{
+    width: 510px;
+    position: absolute;
+    top: 1780px;
+    right: 100px;
+    border-radius: 10px;
+}
+
+.pic5{
+    width: 510px;
+    height: 498px;
+    position: absolute;
+    top: 2080px;
+    left: 100px;
+    border-radius: 10px;
+}
+
+.pic6{
+    width: 510px;
+    position: absolute;
+    top: 2490px;
+    right: 100px;
+    border-radius: 10px;
+}
+
+.pic7{
+    width: 510px;
+    position: absolute;
+    top: 2800px;
+    left: 100px;
+    border-radius: 10px;
+}
+
+
+/*-----------LOUNGE--------------*/
+
+
+
+#LOUNGE h1{
+    margin-top: 2300px;
+    font-size: 50px;
+    margin-left: 40px;
+    text-shadow: 0 0 25px rgb(198, 156, 48),0 0 25px rgb(0, 0, 0), 0 0 50px rgb(0, 0, 0),0 0 25px black , 0 0 25px white;
+   
+
+}
+
+.standard{                    /*----------standard lounge----------*/
+    position: absolute;
+    left: 220px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: 300px;
+    width: 200px;
+    height: 130px;
+    
+   
+}
+
+.standard h2{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 33px;
+    position: absolute;
+    top: 30px;
+    left: 280px;
+    
+}
+
+.stan-pic{
+    width: 566px;
+    position: absolute;
+    left: 110px;
+    top: 100px;
+    border-radius: 5px;
+    
+}
+
+.standard p{
+    font-size: 19px;
+    position: absolute;
+    top: 460px;
+    right: 250px;
+
+}
+
+.standard ul{
+    position: absolute;
+    top: 520px;
+    font-size: 18px;
+}
+
+
+
+.deluxe{                    /*----------deluxe lounge----------*/
+    position: absolute;
+    left: 220px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: 300px;
+    width: 200px;
+    height: 300px;
+    top: 4200px;
+} 
+
+.deluxe h2{
+    position: absolute;
+    top: 30px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 33px;
+}
+
+.dex-pic{
+    width: 600px;
+    height: 360px;
+    position: absolute;
+    top: 101px;
+    right: 98px;
+    border-radius: 5px;
+}
+
+.deluxe p{
+    position: absolute;
+    top: 500px;
+    font-size: 19px;
+    right: 269px;
+}
+
+.deluxe ul{
+    position: absolute;
+    top: 560px;
+    font-size: 18px;
+   
+}
+
+.super-dex{                    /*----------super-deluxe lounge----------*/
+    position: absolute;
+    left: 220px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: 300px;
+    width: 200px;
+    height: 470px;
+    top: 5188px;
+}
+
+.super-dex h2{
+    position: absolute;
+    top: 30px;
+    right: 238px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 33px;
+}   
+
+.sprdx-pic{
+    width: 600px;
+    height: 360px;
+    position: absolute;
+    top: 101px;
+    right: 98px;
+    border-radius: 5px;
+}
+
+.super-dex p{
+    position: absolute;
+    top: 500px;
+    font-size: 19px;
+    right: 235px;
+}
+
+.super-dex ul{
+    position: absolute;
+    top: 560px;
+    font-size: 18px;
+   
+}
+
+/*----------REVIEWS--------*/
+
+#REVIEWS h1{
+        margin-top: 3000px;
+        margin-right: 40px;
+        font-size: 50px;
+        text-align: right;
+    text-shadow: 0 0 25px rgb(198, 156, 48),0 0 25px rgb(0, 0, 0), 0 0 50px rgb(0, 0, 0),0 0 25px black , 0 0 25px white;
+   
+}
+
+.rev1{
+    width: 900px;
+    height: 220px;
+    margin-top: 70px;
+    margin-left: 170px;
+    border-radius: 5px;
+}
+
+.rev2{
+    width: 900px;
+    height: 150px;
+    margin-top: 35px;
+    margin-left: 170px;
+    border-radius: 5px;
+}
+
+.rev3{
+    width: 900px;
+    height: 150px;
+    margin-top: 35px;
+    margin-left: 170px;
+    border-radius: 5px;
+}
+
+.rev4{
+    width: 900px;
+    height: 150px;
+    margin-top: 35px;
+    margin-left: 170px;
+    border-radius: 5px;
+}
+.rev5{
+    width: 900px;
+    height: 150px;
+    margin-top: 35px;
+    margin-left: 170px;
+    border-radius: 5px;
+}
+
+/*-----------REACH US----------*/
+
+#CONTACT h1{
+    margin-top: 100px;
+    font-size: 50px;
+    margin-left: 40px;
+    text-shadow: 0 0 25px rgb(198, 156, 48),0 0 25px rgb(0, 0, 0), 0 0 50px rgb(0, 0, 0),0 0 25px black , 0 0 25px white;
+      
+}
+.call{
+    width: 44px;
+    position: absolute;
+    top: 7730px;
+    
+}
+.mail{
+    width: 45px;
+    position: absolute;
+    top: 7798px;
+    left: 216px;
+    
+}
+.insta{
+    width: 45px;
+    position: absolute;
+    top: 7730px;
+    
+}
+.fb{
+    width: 45px;
+    position: absolute;
+    top: 7790px;
+    right: 496px;
+    
+}
+
+/*----GO TOP-----*/
+
+.goUp{
+    position:fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 40px;
+    right: 50px;
+    background: rgb(199, 190, 14);
+    background: linear-gradient(135deg, rgba(239, 144, 2, 0.856), rgba(226, 222, 222, 0.934) , rgb(6, 175, 3));
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);    
+    
+
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    color: #000000;
+    border-radius: 10px;
+}
